@@ -77,7 +77,7 @@ def add_tracking_links(content, subscriber_id, campaign_id):
         return ""
     
     # Base URL
-    base_url = 'http://localhost:8000'  # Production'da gerçek domain
+    base_url = 'https://mail-rmi9.onrender.com/'  # Production'da gerçek domain
     
     # Açılma takip resmi
     open_tracking_url = f'{base_url}/track/open/{subscriber_id}/{campaign_id}/'
